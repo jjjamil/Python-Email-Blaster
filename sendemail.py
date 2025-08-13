@@ -54,7 +54,7 @@ for data in email_data:
    msg = MIMEMultipart()
    msg['From'] = sender_email
    msg['To'] = recipient
-   msg['Subject'] = "Not Sure About Outsourcing Your Podcast? Let’s Talk!"
+   msg['Subject'] = "Your email subject"
 
 
    msg.attach(MIMEText(html_content, 'html'))
